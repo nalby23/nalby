@@ -1,0 +1,12 @@
+{
+  "name": "kupa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "קופת הקבוצה - דשבורד שקיפות",
+  "dependencies": {
+    "@vercel/blob": "latest"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
