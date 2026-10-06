@@ -45,6 +45,15 @@
   color-scheme:dark;
 }
 *{box-sizing:border-box}
+  <script>
+  // דוגמה לקוד שמושך מידע דינמי מ-API חיצוני ומציג אותו באתר
+  fetch('https://example.com')
+    .then(response => response.json())
+    .then(data => {
+       // כאן הקוד מעדכן את האתר שלך עם המידע החדש בזמן אמת
+       console.log(data);
+    });
+</script>
 body{margin:0;padding-inline:16px;padding-block:20px 48px;background:var(--bg);color:var(--fg);font:400 15px/1.55 var(--font-body);direction:rtl;-webkit-text-size-adjust:100%}
 button,input,select{font-family:inherit}
 .wrap{max-width:760px;margin-inline:auto;display:grid;gap:16px}
